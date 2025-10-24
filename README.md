@@ -4,7 +4,7 @@
 Group 3
 
 ### Team Members:
-1. Ayanna Patel
+1. Ayanna Patel [@ayannapatel] (mailto:ayannapatel14)
 2. Charles Wu
 3. Dhruv Desai
 4. Moheb Veerani
