@@ -31,4 +31,4 @@ Game operations are modeled through the Games table, which records information a
 
 Overall, this database effectively mirrors the complexity of a football organization. It allows for deep insights into performance trends, career timelines, staff movements, and fan participation. With this relational model, queries can explore everything from historical coaching records to player statistics and stadium attendance, providing a powerful analytical foundation for understanding the operations of a professional sports league.
 
-<img src="./image.jpg" alt="My test image" align="left"/>
+<img src="./image.jpg"/>
