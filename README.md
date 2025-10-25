@@ -7,9 +7,9 @@ Group 3
 
 1. Ayanna Patel [@ayannapatel](https://github.com/ayannapatel14)
 2. Charles Wu [@charleswu](https://github.com/CharlesWu0109)
-3. Dhruv Desai [dhruvdesai](https://github.com/Dvdesai)
-4. Moheb Veerani [mohebveerani](https://github.com/mohebveerani-glitch)
-5. Emnet Endalk [emnetendalk](https://github.com/emnete-cell)
+3. Dhruv Desai [@dhruvdesai](https://github.com/Dvdesai)
+4. Moheb Veerani [@mohebveerani](https://github.com/mohebveerani-glitch)
+5. Emnet Endalk [@emnetendalk](https://github.com/emnete-cell)
 
 ### Problem Description:
 The objective of this project is to design and implement a relational database that captures the operations of a professional football organization. The central entity in the model is the Team, which represents each franchise within the league. Every team is associated with players, coaches, mascots, and front office employees who contribute to the organization’s success both on and off the field. This model focuses on accurately representing the relationships between these entities, including player tenure, coaching assignments, staff promotions, and team performance in scheduled games. It also accounts for external factors such as stadium details, attendance tracking, and inter-team matchups that influence overall league statistics. By creating and populating this database with realistic sample data, we aim to simulate a working system that supports queries related to player performance and team management efficiency. Ultimately, the database will serve as a foundation for generating insights that can improve strategic decision-making and operational planning within a professional sports organization.
