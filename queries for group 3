@@ -1,0 +1,28 @@
+#1 This query shows how many employees are a part of each team. It joins the frontOffice and Teams tables, and then groups the data by team name. 
+After that it counts how many people are on each team.
+
+Select team_name
+Count employeeID as total_employees
+From frontOffice
+Join Team on frontOfficeTenure.team_id = team.team_id
+Group by team_name
+Order By total_employees DESC;
+
+This query helps identify the size of each team and it can be used managing workloads or identifying if some teams need more support by adding additional staff.
+It gives a quick understanding of how employees are distributed.
+
+#2 This query lists all employees who have been with the organization since before 2021. It shows their names, what team they’re part of, 
+and the year they started, organized by team and start date.
+
+Select empFirstName, empLastName, team_name, year_started
+From frontOfficeTenure
+Join FrontOffice on FrontOffice.employeeId = Frontofficetenure 
+Where year_started < 2021
+Order by team_name, year_started
+
+
+This can be used so that managers can see which employees are long-term employees and the most experienced employees. 
+It is helpful when trying to identify staff with organizational knowledge and can aid in making decisions regarding different 
+opportunities related to their role.
+
+
