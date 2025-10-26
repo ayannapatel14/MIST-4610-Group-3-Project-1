@@ -34,6 +34,6 @@ Overall, this database effectively mirrors the complexity of a football organiza
 ## Data Dictionary:
 
 ## Queries:
-<img src="./image.jpg"/>
+<img src="./project1queries.sql"/>
 
 
