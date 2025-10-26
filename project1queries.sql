@@ -1,0 +1,19 @@
+#1 Show all players taller than 75 inches 
+
+SELECT playerFName, playerLName, heightIn, weightLbs
+FROM players
+WHERE heightIn > 75 AND weightLbs > 200;
+
+
+#2 What is the average attendance for each stadium? 
+
+SELECT s.stadiumName, AVG(a.attendance) AS avgAttendance
+FROM attendance
+JOIN stadium s ON a.stadiumID = s.stadiumID
+GROUP BY s.stadiumName;
+
+#3 What is the average player height and weight for each primary position? 
+
+SELECT primaryPosition, ROUND(AVG(heightIn), 2) AS avgHeight, ROUND(AVG(weightLbs), 2) AS avgWeight
+FROM players
+GROUP BY primaryPosition;
