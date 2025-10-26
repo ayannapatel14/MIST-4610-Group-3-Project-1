@@ -33,7 +33,7 @@ Overall, this database effectively mirrors the complexity of a football organiza
 <img src="./NFL_Database_Page_1.png"/>
 
 ## Data Dictionary:
-<img src="./NFL_Database_Page_1.png"/>
+<img src="./data_tables_combined.png"/>
 
 ## Queries:
 
