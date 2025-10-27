@@ -37,5 +37,9 @@ Overall, this database effectively mirrors the complexity of a football organiza
 
 ## Queries:
 1. Query 1 retrieves a list of all NFL players who are taller than 75 inches and weigh more than 200 pounds from the players table. It displays each player’s first name, last name, height, and weight, allowing users to easily view players who meet both physical criteria.
-
+<img src="./QUERY 1 W OUTPUT FINALLL.png"/>
 This query is useful for coaches, scouts, or analysts who want to identify players with above-average size — typically offensive or defensive linemen, tight ends, or other physically demanding positions. By filtering based on both height and weight, it provides a focused view of players who possess a larger physical build, which can be valuable for evaluating roster composition, game strategy, or player comparisons.
+
+
+2. Query 2 calculates the average attendance for each NFL stadium by combining data from the attendance, team, and stadium tables. It uses the AVG() function to find the mean attendance value for all games played in each stadium and groups the results by stadium name.
+<img src="./QUERY 1 W OUTPUT FINALLL.png"/>
