@@ -56,7 +56,7 @@ This query provides valuable insight into the physical characteristics typical f
 This query is helpful for analyzing divisional rivalries within the NFC South. It allows analysts and coaches to quickly identify which teams tend to dominate specific matchups and which rivalries are more evenly contested, providing strategic insights for future games and performance evaluations.
 
 ---
-5. Query 5 retrieves all players who have played for teams with stadiums built before 1990. It uses the EXISTS condition to check if a player’s ID appears in the playerTenure table for a team whose associated stadium was constructed before 1990. By joining the playerTenure, team, and stadium tables, it ensures that only players connected to these older stadiums are included.
+5. Query 5 retrieves all players who have played for teams with stadiums built before 1990. It uses the EXISTS condition to check if a player’s ID appears in the playerTenure table for a team whose associated stadium was constructed before 1990. By joining the playerTenure, team, and stadium tables it ensures that only players connected to these older stadiums are included.
 <img src="./query 5 w output final.png"/>
 This query helps identify players who have been part of historic or long-standing franchises that play in older stadiums, such as the Caesars Superdome. It’s useful for analyzing veteran players or those with experience in traditional venues, and can also provide insight into franchise longevity, stadium history, and player-team relationships over time.
 
