@@ -30,7 +30,7 @@ Each team is also linked to a Mascot entity, which provides descriptive attribut
 Game operations are modeled through the Games table, which records information about every match, including the participating teams, final score, week of play, and outcome. Because two teams are involved in each game, the model includes recursive relationships using dual foreign keys (team1 and team2). The associative entities PlayedGames and CoachedGames connect individual players and coaches to specific matches, ensuring that every participant’s performance can be tracked across the season.
 
 Overall, this database effectively mirrors the complexity of a football organization. It allows for deep insights into performance trends, career timelines, staff movements, and fan participation. With this relational model, queries can explore everything from historical coaching records to player statistics and stadium attendance, providing a powerful analytical foundation for understanding the operations of a professional sports league.
-<img src="./NFL_Database_Page_1.png"/>
+<img src="./Data_Model_Page1.png"/>
 
 ## Data Dictionary:
 <img src="./data_tables_combined.png"/>
