@@ -36,22 +36,6 @@ Overall, this database effectively mirrors the complexity of a football organiza
 <img src="./Data_DictionaryNFL_Database_AllPages.png"/>
 
 ## Queries:
-1. Query 1 retrieves all players from the players table who are taller than 75 inches and weigh more than 200 pounds. It displays their first name, last name, height, and weight.
-  This query helps identify larger or physically dominant players, which can be useful for scouting or position analysis.
+1. Query 1 retrieves a list of all NFL players who are taller than 75 inches and weigh more than 200 pounds from the players table. It displays each player’s first name, last name, height, and weight, allowing users to easily view players who meet both physical criteria.
 
-<img src="./MIST4610Query1.1"/>
-
-3. Query 2 calculates the average attendance for each stadium by joining the attendance and stadium tables. It groups results by stadium name and returns the stadium’s name along with its average attendance.
-  This allows analysts or managers to compare fan turnout and determine which stadiums typically attract larger crowds.
-
-<img src="./MIST4610Query1.2"/>
-
-4. Query 3 computes the average player height and weight for each primary position in the players table. It uses the AVG() and ROUND() functions for clarity and precision.
-  This query helps coaches and analysts understand the typical body metrics associated with each position, aiding in player evaluation and training decisions.
-
-<img src="./3 queries.png"/>
-
-4. Query 4 lists all NFC South matchups (Saints, Falcons, Panthers, and Buccaneers) and calculates each team pairing’s average point difference based on their games against one another. This query helps identify performance trends within the division, showing which teams typically outscore or get outscored by their rivals. It provides valuable insights for analysts and coaches to evaluate competitiveness and adjust strategies for future matchups.
-<img src="./query 4.png"/>
-
-
+This query is useful for coaches, scouts, or analysts who want to identify players with above-average size — typically offensive or defensive linemen, tight ends, or other physically demanding positions. By filtering based on both height and weight, it provides a focused view of players who possess a larger physical build, which can be valuable for evaluating roster composition, game strategy, or player comparisons.
