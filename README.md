@@ -46,13 +46,19 @@ This query is useful for coaches, scouts, or analysts who want to identify playe
 This query helps teams, analysts, and management understand fan engagement and stadium popularity. By viewing the average attendance per venue, organizations can identify which stadiums consistently draw larger crowds and which may need marketing improvements or fan experience enhancements. It provides valuable insight into audience trends and event performance across all NFC South stadiums.
 
 ---
-Query 3 calculates the average height and weight of players for each primary position in the players table. Using the AVG() function, it computes the mean values of both height(in) and weight(lbs), and the ROUND() function ensures the results are neatly rounded to two decimal places. The results are grouped by primaryPosition, giving one row per position.
+3. Query 3 calculates the average height and weight of players for each primary position in the players table. Using the AVG() function, it computes the mean values of both height(in) and weight(lbs), and the ROUND() function ensures the results are neatly rounded to two decimal places. The results are grouped by primaryPosition, giving one row per position.
 <img src="./QUERY 3 W OUTPUT FINALL.png"/>
 This query provides valuable insight into the physical characteristics typical for each position, such as how linemen tend to be taller and heavier compared to wide receivers or defensive backs. Coaches, scouts, and analysts can use this data to evaluate player build trends, guide recruitment decisions, and ensure players meet the ideal size profiles for their respective roles on the field.
 
 ---
-Query 4 lists all NFC South matchups — including the Saints, Falcons, Panthers, and Buccaneers — and calculates the average point difference between each pair of teams based on their previous games against each other. The query joins the games table with the team table twice (once for the home team and once for the away team) and uses the REGEXP function to ensure that only games between these four teams are included.
+4. Query 4 lists all NFC South matchups — including the Saints, Falcons, Panthers, and Buccaneers — and calculates the average point difference between each pair of teams based on their previous games against each other. The query joins the games table with the team table twice (once for the home team and once for the away team) and uses the REGEXP function to ensure that only games between these four teams are included.
 <img src="./QUERY 4 W OUTPUT FINALL.png"/>
 This query is helpful for analyzing divisional rivalries within the NFC South. It allows analysts and coaches to quickly identify which teams tend to dominate specific matchups and which rivalries are more evenly contested, providing strategic insights for future games and performance evaluations.
 
 ---
+5. Query 5 retrieves all players who have played for teams with stadiums built before 1990. It uses the EXISTS condition to check if a player’s ID appears in the playerTenure table for a team whose associated stadium was constructed before 1990. By joining the playerTenure, team, and stadium tables, it ensures that only players connected to these older stadiums are included.
+<img src="./query 5 w output final.png"/>
+This query helps identify players who have been part of historic or long-standing franchises that play in older stadiums, such as the Caesars Superdome. It’s useful for analyzing veteran players or those with experience in traditional venues, and can also provide insight into franchise longevity, stadium history, and player-team relationships over time.
+
+---
+6. 
