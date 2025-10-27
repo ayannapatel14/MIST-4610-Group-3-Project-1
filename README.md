@@ -40,6 +40,19 @@ Overall, this database effectively mirrors the complexity of a football organiza
 <img src="./QUERY 1 W OUTPUT FINALLL.png"/>
 This query is useful for coaches, scouts, or analysts who want to identify players with above-average size — typically offensive or defensive linemen, tight ends, or other physically demanding positions. By filtering based on both height and weight, it provides a focused view of players who possess a larger physical build, which can be valuable for evaluating roster composition, game strategy, or player comparisons.
 
-
+---
 2. Query 2 calculates the average attendance for each NFL stadium by combining data from the attendance, team, and stadium tables. It uses the AVG() function to find the mean attendance value for all games played in each stadium and groups the results by stadium name.
-<img src="./QUERY 1 W OUTPUT FINALLL.png"/>
+<img src="./query 2 W OUTPUT FINALLL.png"/>
+This query helps teams, analysts, and management understand fan engagement and stadium popularity. By viewing the average attendance per venue, organizations can identify which stadiums consistently draw larger crowds and which may need marketing improvements or fan experience enhancements. It provides valuable insight into audience trends and event performance across all NFC South stadiums.
+
+---
+Query 3 calculates the average height and weight of players for each primary position in the players table. Using the AVG() function, it computes the mean values of both height(in) and weight(lbs), and the ROUND() function ensures the results are neatly rounded to two decimal places. The results are grouped by primaryPosition, giving one row per position.
+<img src="./QUERY 3 W OUTPUT FINALL.png"/>
+This query provides valuable insight into the physical characteristics typical for each position, such as how linemen tend to be taller and heavier compared to wide receivers or defensive backs. Coaches, scouts, and analysts can use this data to evaluate player build trends, guide recruitment decisions, and ensure players meet the ideal size profiles for their respective roles on the field.
+
+---
+Query 4 lists all NFC South matchups — including the Saints, Falcons, Panthers, and Buccaneers — and calculates the average point difference between each pair of teams based on their previous games against each other. The query joins the games table with the team table twice (once for the home team and once for the away team) and uses the REGEXP function to ensure that only games between these four teams are included.
+<img src="./QUERY 4 W OUTPUT FINALL.png"/>
+This query is helpful for analyzing divisional rivalries within the NFC South. It allows analysts and coaches to quickly identify which teams tend to dominate specific matchups and which rivalries are more evenly contested, providing strategic insights for future games and performance evaluations.
+
+---
