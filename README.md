@@ -36,6 +36,8 @@ Overall, this database effectively mirrors the complexity of a football organiza
 <img src="./Data_DictionaryNFL_Database_AllPages.png"/>
 
 ## Queries:
-1. Query 1
+1. Query 1 lists all NFC South matchups (Saints, Falcons, Panthers, and Buccaneers) and calculates each team pairing’s average point difference based on their games against one another. 
+<img src="./query 4.png"/>
+This query helps identify performance trends within the division, showing which teams typically outscore or get outscored by their rivals. It provides valuable insights for analysts and coaches to evaluate competitiveness and adjust strategies for future matchups.
 
-
+2. 
