@@ -65,25 +65,27 @@ This query is helpful for analyzing divisional rivalries within the NFC South. I
 This query helps identify players who have been part of historic or long-standing franchises that play in older stadiums, such as the Caesars Superdome. It’s useful for analyzing veteran players or those with experience in traditional venues, and can also provide insight into franchise longevity, stadium history, and player-team relationships over time.
 
 ---
-6. 
+6. This query identifies which teams have an average player weight above the league average. It calculates each team’s average player weight by joining the team, playerTenure, and players tables. The AVG() function determines the mean weight for each team, and the HAVING clause filters only those teams whose average weight exceeds the overall league average, which is calculated using a subquery.
+<img src="./query 6 with output FINAL.png"/>
+This query can be useful for coaches, analysts, and training staff to evaluate whether certain teams tend to have heavier or lighter rosters. It can also support strategic insights, such as assessing team build trends and how they might influence gameplay or performance on the field.
 
-__
+---
 7. Query 7 returns all people who held a HC, DC, or OC position for the Atlanta Falcons from the 2022 to 2024 NFL seasons.
 <img src="./MIST4610Query1.7.png"/>
 Query 7 allows owners to understand how often their coaching staff changes a year, and whether internally this is a good trend or not based on current performance. Although the Falcons are not the worst performing team in the NFC South, they could be performing better. Ownership may decide to settle more on their coaching staff, or decide it could be another issue. 
 
 
-___
+---
 8. Query 8 returns the team name, and the amount of in-organization promotions that have occurred between the 2022-2024 NFL seasons in the NFC South.
 <img src="./MIST4610Query1.8.png"/>
 This query allows owners to understand organizations that see a lot of position changes yet also rely more heavily on those within the organization to fill such spots. Depending on the success of a franchise, this may make other teams decide to follow that strategy, like the Buccaneers winning the NFC South division more often as of recent compared to other teams.
 
-___
+---
 9. Query 9 returns the average attendance figure of a home game for teams in the NFC South between the 2022-2024 NFL seasons. 
 <img src="./MIST4610Query1.9.png"/>
 This query allows an owner (and other front office staff) about how well their team is doing relative to other teams in the NFC South in terms of attendance. This can indicate the success of promotions, or bringing out competitive teams each night. Furthermore, this allows for vendors a franchise works with to properly adjust to changing attendance figures over time to maximize profits and ensure no wastage of food (which can be costly). 
 
-___
+---
 10. Query 10 returns the average attendance figure of a home game for teams in the NFC South when going against a team in their own division between the 2022-2024 NFL seasons.
 <img src="./MIST4610Query1.10.png"/>
 This query allows an owner (and other front office staff) about how well their team is doing relative to other teams in the NFC South in marketing their matches against one another. It also shows how tight of a rivalry it really is and shows potentially more or less demand compared to average home figures as shown in query 9. This can be used to develop marketing strategies in regards to said matchups. 
