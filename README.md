@@ -71,18 +71,18 @@ This query helps identify players who have been part of historic or long-standin
 ___
 8. Query 8 returns the team name, and the amount of in-organization promotions that have occurred between the 2022-2024 NFL seasons in the NFC South.
 
-<img src="./MIST4610Query1.8"/>
+<img src="./MIST4610Query1.8.png"/>
 
 Query 8 allows owners to understand organizations that see a lot of position changes yet also rely more heavily on those within the organization to fill such spots. Depending on the success of a franchise, this may make other teams decide to follow that strategy, like the Buccaneers winning the NFC South division more often as of recent compared to other teams. 
 ___
 9. Query 9 returns the average attendance figure of a home game for teams in the NFC South between the 2022-2024 NFL seasons. 
 
-<img src="./MIST4610Query1.9"/>
+<img src="./MIST4610Query1.9.png"/>
 
 Query 9 allows an owner (and other front office staff) about how well their team is doing relative to other teams in the NFC South in terms of attendance. This can indicate the success of promotions, or bringing out competitive teams each night. Furthermore, this allows for vendors a franchise works with to properly adjust to changing attendance figures over time to maximize profits and ensure no wastage of food (which can be costly). 
 ___
 10. Query 10 returns the average attendance figure of a home game for teams in the NFC South when going against a team in their own division between the 2022-2024 NFL seasons.
 
-<img src="./MIST4610Query1.10"/>
+<img src="./MIST4610Query1.10.png"/>
 
 Query 10 allows an owner (and other front office staff) about how well their team is doing relative to other teams in the NFC South in marketing their matches against one another. It also shows how tight of a rivalry it really is and shows potentially more or less demand compared to average home figures as shown in query 9. This can be used to develop marketing strategies in regards to said matchups. 
