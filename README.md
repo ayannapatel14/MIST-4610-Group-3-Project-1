@@ -67,6 +67,11 @@ This query helps identify players who have been part of historic or long-standin
 ---
 6. 
 
+__
+7. Query 7 returns all people who held a HC, DC, or OC position for the Atlanta Falcons from the 2022 to 2024 NFL seasons.
+<img src="./MIST4610Query1.7.png"/>
+Query 7 allows owners to understand how often their coaching staff changes a year, and whether internally this is a good trend or not based on current performance. Although the Falcons are not the worst performing team in the NFC South, they could be performing better. Ownership may decide to settle more on their coaching staff, or decide it could be another issue. 
+
 
 ___
 8. Query 8 returns the team name, and the amount of in-organization promotions that have occurred between the 2022-2024 NFL seasons in the NFC South.
