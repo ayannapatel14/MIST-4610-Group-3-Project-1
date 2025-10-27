@@ -36,6 +36,6 @@ Overall, this database effectively mirrors the complexity of a football organiza
 <img src="./Data_DictionaryNFL_Database_AllPages.png"/>
 
 ## Queries:
-
+1. Query 1
 
 
