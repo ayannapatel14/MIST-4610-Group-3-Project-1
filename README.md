@@ -36,8 +36,18 @@ Overall, this database effectively mirrors the complexity of a football organiza
 <img src="./Data_DictionaryNFL_Database_AllPages.png"/>
 
 ## Queries:
-1. Query 1 lists all NFC South matchups (Saints, Falcons, Panthers, and Buccaneers) and calculates each team pairing’s average point difference based on their games against one another. 
-<img src="./query 4.png"/>
-This query helps identify performance trends within the division, showing which teams typically outscore or get outscored by their rivals. It provides valuable insights for analysts and coaches to evaluate competitiveness and adjust strategies for future matchups.
+1. Query 1 retrieves all players from the players table who are taller than 75 inches and weigh more than 200 pounds. It displays their first name, last name, height, and weight.
+  This query helps identify larger or physically dominant players, which can be useful for scouting or position analysis.
 
-2. 
+2. Query 2 calculates the average attendance for each stadium by joining the attendance and stadium tables. It groups results by stadium name and returns the stadium’s name along with its average attendance.
+  This allows analysts or managers to compare fan turnout and determine which stadiums typically attract larger crowds.
+
+3. Query 3 computes the average player height and weight for each primary position in the players table. It uses the AVG() and ROUND() functions for clarity and precision.
+  This query helps coaches and analysts understand the typical body metrics associated with each position, aiding in player evaluation and training decisions.
+
+<img src="./3 queries.png"/>
+
+4. Query 4 lists all NFC South matchups (Saints, Falcons, Panthers, and Buccaneers) and calculates each team pairing’s average point difference based on their games against one another. This query helps identify performance trends within the division, showing which teams typically outscore or get outscored by their rivals. It provides valuable insights for analysts and coaches to evaluate competitiveness and adjust strategies for future matchups.
+<img src="./query 4.png"/>
+
+
